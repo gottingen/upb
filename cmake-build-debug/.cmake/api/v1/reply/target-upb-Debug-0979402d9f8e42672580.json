@@ -1,0 +1,932 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "upb/libupb.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"absl_cc_library",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"upb/CMakeLists.txt",
+			"3rd/abseil/CMake/AbseilHelpers.cmake",
+			"3rd/abseil/absl/container/CMakeLists.txt",
+			"3rd/abseil/absl/status/CMakeLists.txt",
+			"3rd/abseil/absl/strings/CMakeLists.txt",
+			"3rd/abseil/absl/crc/CMakeLists.txt",
+			"3rd/abseil/absl/log/CMakeLists.txt",
+			"3rd/abseil/absl/synchronization/CMakeLists.txt",
+			"3rd/abseil/absl/debugging/CMakeLists.txt",
+			"3rd/abseil/absl/types/CMakeLists.txt",
+			"3rd/abseil/absl/hash/CMakeLists.txt",
+			"3rd/abseil/absl/time/CMakeLists.txt",
+			"3rd/abseil/absl/base/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 314,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 317,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 16,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 899,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 582,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 13
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 757,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 15
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 152,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 56,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 20
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 146,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 317,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 181,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 25
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 69,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 28
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 19,
+				"parent" : 30
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 62,
+				"parent" : 30
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 33
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 163,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 317,
+				"parent" : 36
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 10,
+				"line" : 17,
+				"parent" : 38
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 39
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 296,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 317,
+				"parent" : 41
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 17,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 44
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 46
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 12,
+				"line" : 204,
+				"parent" : 48
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 253,
+				"parent" : 49
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 34,
+				"parent" : 51
+			},
+			{
+				"command" : 3,
+				"file" : 13,
+				"line" : 40,
+				"parent" : 51
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu99 -fPIC -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "upb_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 52,
+					"path" : "/home/jeff/github/gottingen/upb/3rd/utf8_range"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "/home/jeff/github/gottingen/upb/3rd/abseil"
+				},
+				{
+					"backtrace" : 54,
+					"path" : "/home/jeff/github/gottingen/upb"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "utf8_range::@b6c6450d256e75014699"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_severity::@289ef7ed9ae6f7208b42"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_raw_logging_internal::@289ef7ed9ae6f7208b42"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_spinlock_wait::@289ef7ed9ae6f7208b42"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_malloc_internal::@289ef7ed9ae6f7208b42"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_base::@289ef7ed9ae6f7208b42"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_throw_delegate::@289ef7ed9ae6f7208b42"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_strerror::@289ef7ed9ae6f7208b42"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_hashtablez_sampler::@de4a077cf7bddfa60d24"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_raw_hash_set::@de4a077cf7bddfa60d24"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_crc_cpu_detect::@c331fd372784d8f861cc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_crc_internal::@c331fd372784d8f861cc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_crc32c::@c331fd372784d8f861cc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_crc_cord_state::@c331fd372784d8f861cc"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_stacktrace::@0cafaefae639f69ed03c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_symbolize::@0cafaefae639f69ed03c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_examine_stack::@0cafaefae639f69ed03c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_debugging_internal::@0cafaefae639f69ed03c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_demangle_internal::@0cafaefae639f69ed03c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_hash::@6b2fcf82aa87b1350fec"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_city::@6b2fcf82aa87b1350fec"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_low_level_hash::@6b2fcf82aa87b1350fec"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_internal_conditions::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_internal_format::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_internal_globals::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_internal_proto::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_internal_message::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_internal_log_sink_set::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_internal_nullguard::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_globals::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_entry::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_sink::@764809e23c9650e1cfee"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_int128::@b625aebeaa2e038a5e70"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_exponential_biased::@7a6441d0a7462853c769"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_status::@20a4cc48ccc72ac68f6d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_statusor::@20a4cc48ccc72ac68f6d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_string_view::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_strings::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_strings_internal::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_str_format_internal::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cord_internal::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cordz_functions::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cordz_handle::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cordz_info::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cord::@84bb1f0d63118b72008e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_graphcycles_internal::@cb909a736f44de4bd9ed"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_kernel_timeout_internal::@cb909a736f44de4bd9ed"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_synchronization::@cb909a736f44de4bd9ed"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_time::@35cf71f894430e3229c9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_civil_time::@35cf71f894430e3229c9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_time_zone::@35cf71f894430e3229c9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_bad_optional_access::@dfc2a011de82b23b908b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_bad_variant_access::@dfc2a011de82b23b908b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "upb_proto::@6292be73bdfdc4ea12bd"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "upb_base::@cd5a25ea7106a7ff42a5"
+		}
+	],
+	"id" : "upb::@cd5a25ea7106a7ff42a5",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "upb/libupb_base.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "google/libupb_proto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libprotobuf.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/utf8_range-build/libutf8_range.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "_deps/absl-build/absl/container/libabsl_raw_hash_set.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/container/libabsl_hashtablez_sampler.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/status/libabsl_statusor.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/status/libabsl_status.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_cord.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_cordz_info.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_cord_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_cordz_functions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "_deps/absl-build/absl/profiling/libabsl_exponential_biased.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_cordz_handle.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "_deps/absl-build/absl/crc/libabsl_crc_cord_state.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "_deps/absl-build/absl/crc/libabsl_crc32c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "_deps/absl-build/absl/crc/libabsl_crc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "_deps/absl-build/absl/crc/libabsl_crc_cpu_detect.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_internal_conditions.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_internal_message.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "_deps/absl-build/absl/base/libabsl_strerror.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/debugging/libabsl_examine_stack.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_internal_format.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_str_format_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_internal_proto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_internal_nullguard.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_internal_log_sink_set.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/synchronization/libabsl_synchronization.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/debugging/libabsl_stacktrace.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "_deps/absl-build/absl/synchronization/libabsl_graphcycles_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "_deps/absl-build/absl/synchronization/libabsl_kernel_timeout_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "_deps/absl-build/absl/debugging/libabsl_symbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "_deps/absl-build/absl/base/libabsl_malloc_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "_deps/absl-build/absl/debugging/libabsl_debugging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "_deps/absl-build/absl/debugging/libabsl_demangle_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_internal_globals.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_globals.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/hash/libabsl_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "_deps/absl-build/absl/types/libabsl_bad_optional_access.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "_deps/absl-build/absl/hash/libabsl_city.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 42,
+				"fragment" : "_deps/absl-build/absl/types/libabsl_bad_variant_access.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "_deps/absl-build/absl/hash/libabsl_low_level_hash.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_sink.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "_deps/absl-build/absl/log/libabsl_log_entry.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/time/libabsl_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/time/libabsl_time_zone.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "_deps/absl-build/absl/time/libabsl_civil_time.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_strings.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_string_view.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "_deps/absl-build/absl/strings/libabsl_strings_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/base/libabsl_base.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "_deps/absl-build/absl/base/libabsl_spinlock_wait.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "_deps/absl-build/absl/numeric/libabsl_int128.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "_deps/absl-build/absl/base/libabsl_throw_delegate.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "_deps/absl-build/absl/base/libabsl_raw_logging_internal.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "_deps/absl-build/absl/base/libabsl_log_severity.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "upb",
+	"nameOnDisk" : "libupb.so",
+	"paths" : 
+	{
+		"build" : "upb",
+		"source" : "upb"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "upb/upb_so.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,12 @@
+/snap/clion/265/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/265/bin/ninja/linux/x64/ninja -G Ninja -S /home/jeff/github/gottingen/upb -B /home/jeff/github/gottingen/upb/cmake-build-debug
+-- CPM: adding package utf8_range@ (/home/jeff/github/gottingen/upb/3rd/utf8_range)
+-- CPM: adding package absl@ (/home/jeff/github/gottingen/upb/3rd/abseil)
+CMake Warning at 3rd/abseil/CMakeLists.txt:77 (message):
+  A future Abseil release will default ABSL_PROPAGATE_CXX_STD to ON for CMake
+  3.8 and up.  We recommend enabling this option to ensure your project still
+  builds correctly.
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/jeff/github/gottingen/upb/cmake-build-debug

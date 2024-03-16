@@ -1,0 +1,3 @@
+/home/jeff/github/gottingen/upb/cmake-build-debug/_deps/utf8_range-subbuild/CMakeFiles/utf8_range-populate.dir
+/home/jeff/github/gottingen/upb/cmake-build-debug/_deps/utf8_range-subbuild/CMakeFiles/edit_cache.dir
+/home/jeff/github/gottingen/upb/cmake-build-debug/_deps/utf8_range-subbuild/CMakeFiles/rebuild_cache.dir
